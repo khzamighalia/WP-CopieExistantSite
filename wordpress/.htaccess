@@ -5,11 +5,11 @@
 # Toute modification des directives entre ces marqueurs sera outrepassée.
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /wordpress/
+RewriteBase /wordpress-siteExistant/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /wordpress/index.php [L]
+RewriteRule . /wordpress-siteExistant/index.php [L]
 </IfModule>
 
 # END WordPress
